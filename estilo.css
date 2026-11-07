@@ -1,0 +1,170 @@
+
+/*topo*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+
+background-color:#141414;
+
+
+}
+header{
+    background-color: #8B0000;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+.logo{
+    display: flex;
+    gap:50px
+ 
+
+}
+/*index vagas*/
+.logo>a>img{
+    height: 100px;
+    width: auto;
+    padding: 10px;
+      
+}
+/*index inicio*/
+.logo>img{
+    height: 100px;
+    width: auto;
+    padding: 10px;
+      
+}
+.logo> h1{
+    padding: 20px;
+     color: white;
+}
+.menu{
+    display: flex;
+    gap:35px;
+    padding: 10px;
+
+
+}
+.menu>p{
+border: solid white 2px;
+border-radius: 10px;
+padding: 10px;
+}
+.menu>a>p{
+border: solid white 2px;
+border-radius: 10px;
+padding: 10px;
+color: white;
+ 
+}
+.menu>a{
+    
+    text-decoration: none;
+}
+/*filmes*/
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+    margin-bottom:10px;
+    color: #FFD700;
+}
+.filmes{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap:100px;
+   
+ 
+}
+
+.filmes>div{
+    background-color: #242424;
+     flex: 0 0 300px;
+    border:solid black 3px;
+    border-radius:30px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white
+    
+}
+.filmes>div>h2{
+     text-align: center;
+ 
+}
+.filmes>div>img{
+ margin: 0 auto;
+    width: 200px;
+   display: block;
+   height: 300px;
+    object-fit: cover;   /* Faz a imagem preencher o espaço sem distorcer. */
+
+ 
+}
+.filmes>div>p{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.filmes>div>h2{
+    margin-bottom:10px;
+}
+.filmes>div>a>button{
+    border-radius:15px;
+    padding: 10px;
+    margin: 0 auto;   /* Centraliza horizontalmente usando margens automáticas. */
+    display: block;    /* Faz o elemento se comportar como um bloco, ocupando uma linha própria. */
+  
+}
+.filmes>div>a{
+    text-decoration: none
+}
+/*reservas*/
+   .vagas{
+    display:flex;
+    flex-wrap: wrap;
+      gap: 30px;
+      padding: 10px;
+     
+
+   }
+   .vagas>div>img{
+     width:250px;
+    
+
+   }
+   .vagas>div{
+    position: relative;
+    padding: 10px;
+  
+   }
+   .vagas>div>p{
+      position: absolute;
+   top: 40%;   /* Posiciona o número a 40% da altura do assento. */
+
+    left: 50%;    /* Posiciona o número no meio horizontal do assento. */
+    transform: translate(-50%, -50%);  /* Ajusta o número para centralizá-lo corretamente. */
+    margin:0;
+   
+   }
+   .vagas>div>span{
+     position: absolute;
+     top:70%;
+       left: 50%;    
+    transform: translate(-50%, -50%);  
+    margin:0;
+
+   }
+   /*Sobre nós*/
+   .texto{
+    color: white;
+    text-align: justify;
+     margin-bottom: 10px;
+     margin: 20px;
+    
+   }
+   /*embreve*/
